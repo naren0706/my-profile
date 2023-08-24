@@ -1,25 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naren</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header class="header">
-        <div class="logo-box">
-            <img src="./img/logo-white.png" alt="logo white" class="logo">
+        <div class="header__logo-box">
+            <img src="./img/logo-white.png" alt="logo white" class="header__logo">
         </div>
-        <div class="text-box">
+        <div class="header__text-box">
             <h1>
                 <div class="heading-primary">
-                    <span class="heading-primary-main">Narenthra kishore</span>
-                    <span class="heading-primary-sub">full stack developer</span>
+                    <span class="heading-primary--main">Narenthra kishore</span>
+                    <span class="heading-primary--sub">full stack developer</span>
                 </div>
             </h1>
-            <a href="#" class="btn btn-white btn-animated">discover the  tours</a>
+            <a href="#" class="btn btn--white btn--animated">about me</a>
         </div>
     </header>
+    <main>
+        <section class="section-about">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    who am i ? and what i am doing?
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-1-of-2">
+                    <h3 class="heading-tertiary u-margin-bottom-small">Who am i </h3>
+                    <p class="paragraph">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo quasi velit magnam quae corporis minima facilis, reiciendis aspernatur temporibus eos perferendis dolorem explicabo. Repudiandae dolorum et harum error nesciunt perspiciatis?
+                    </p>
+                    <h3 class="heading-tertiary u-margin-bottom-small">what am i doing </h3>
+                    <p class="paragraph">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam accusantium, repellendus sunt earum excepturi impedit vitae laboriosam totam enim accusamus, quam qui repudiandae, ratione corporis iste blanditiis dolore distinctio? Laborum?
+                    </p>
+                    <a href="#" class="btn-text">learn more &rarr;</a>
+                </div>
+                <div class="col-1-of-2">
+                    <div class="composition">
+                        <img src="img/nat-1-large.jpg" alt="photo 1" class="composition__photo composition__photo--p1">
+                        <img src="img/nat-2-large.jpg" alt="photo 2" class="composition__photo composition__photo--p2">
+                        <img src="img/nat-3-large.jpg" alt="photo 3" class="composition__photo composition__photo--p3">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-feature">
+            <div class="row">
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon">
+                            <img src="./svg/undraw_welcoming_re_x0qo.svg" alt="">
+                        </i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Explore</h3>
+                        <div class="feature-box__text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam atque animi minima fugiat, necessitatibus blanditiis 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon">
+                            <img src="./svg/IOT.svg" alt="">
+                        </i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Explore</h3>
+                        <div class="feature-box__text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam atque animi minima fugiat, necessitatibus blanditiis 
+                        </div>
+                    </div>
+                </div><div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon">
+                            <img src="./svg/CryptoFlowers.svg" alt="">
+                        </i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Explore</h3>
+                        <div class="feature-box__text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam atque animi minima fugiat, necessitatibus blanditiis 
+                        </div>
+                    </div>
+                </div><div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon">
+                            <img src="./svg/mello.svg" alt="">
+                        </i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Explore</h3>
+                        <div class="feature-box__text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam atque animi minima fugiat, necessitatibus blanditiis 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- <section class="grid-test">
+            <div class="row">
+                <div class="col-1-of-2">
+                    Col 1 of 2
+                </div>
+                <div class="col-1-of-2">
+                    Col 1 of 2
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-2-of-3">
+                    Col 2 of 3
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-2-of-4">
+                    Col 2 of 4
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-4">
+                    Col 1 of 4
+                </div>
+                <div class="col-3-of-4">
+                    Col 3 of 4
+                </div>
+            </div>
+        </section> -->
+
 </body>
+
 </html>

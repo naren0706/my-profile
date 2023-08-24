@@ -1,0 +1,17 @@
+{
+  "name": "my-profile",
+  "version": "1.0.0",
+  "description": "Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss": "node-sass scss/main.scss css/style.css -w"
+  },
+  "author": "naren",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.7.0"
+  }
+}

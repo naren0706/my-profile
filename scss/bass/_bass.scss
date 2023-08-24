@@ -1,0 +1,22 @@
+
+*,
+*::before, 
+*::after {
+    padding: 0px;
+    border: 0px;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    /* font-size: 16px; */
+    line-height: 1.7;
+    color: $color_grey_dark;
+    padding: 3rem;
+    box-sizing: border-box;
+}
