@@ -29,7 +29,7 @@
     display: inline-block;
     background-image: linear-gradient(to right,$color_primary_light,$color_primary_dark);
     -webkit-background-clip: text;
-    color: transparent ;
+    color: transparent;
     letter-spacing: 2px;
     transition: all .2s;
     &:hover{
