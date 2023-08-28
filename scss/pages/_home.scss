@@ -16,5 +16,13 @@
 .section-tours{
     background-color: $color-grey-light-1;
     padding: 25rem 0 15rem 0;
-    margin-top: 10rem;
+    margin-top: -10rem;
+}
+.section-stories{
+    background-color: rgba($color-grey-light-1,.2);
+    padding: 6rem 0;
+    position: relative;
+    overflow: hidden;
+    // opacity: .2;
+    
 }
